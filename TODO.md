@@ -2,7 +2,10 @@
 
 - [ ] Create project scaffolding: backend/ and frontend/ directories
 - [ ] Initialize Django project (config/) and apps: accounts/, projects/, tasks/
-- [ ] Configure settings: custom User model, DRF, JWT, CORS, drf-spectacular
+- [x] Configure base project scaffolding moved under backend/
+- [ ] Configure DRF settings: custom User model, JWT, CORS, drf-spectacular
+
+
 - [ ] Implement models: Project, Membership (RBAC per-project), Task
 - [ ] Implement serializers with business validation (due_date, membership checks)
 - [ ] Implement permissions: Member vs Admin per project, secure object-level checks
